@@ -1,6 +1,6 @@
 # Code Excerpts from the Project Write-Up
 
-These are the partial listings printed in [Marcos_Perez_Air_Defense_System_Project.pdf](Marcos_Perez_Air_Defense_System_Project.pdf), reproduced as shown there. **They are not complete programs.** Lines beginning `// ...` or `// (see ...)` mark code omitted from the write-up. The complete `.ino` files are not in this repository yet.
+These are the partial listings printed in [Marcos_Perez_Air_Defense_System_Project.pdf](Marcos_Perez_Air_Defense_System_Project.pdf), reproduced as shown there. **They are not complete programs.** Lines beginning `// ...` or `// (see ...)` mark code omitted from the write-up. The complete sketches are in the [`../code/`](../code/README.md) folder; use those rather than these excerpts.
 
 ## 1. Radar display and sound system (original sketch)
 

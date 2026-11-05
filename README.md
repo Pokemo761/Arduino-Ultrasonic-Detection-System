@@ -71,7 +71,11 @@ The radar/OLED code and the turret code were first built and tested as two separ
 
 ## Source Code
 
-The `.ino` source files are not yet in this repository. See [`code/README.md`](code/README.md). The code excerpts shown in the project write-up are collected, clearly marked as excerpts, in [`docs/code-excerpts.md`](docs/code-excerpts.md). They are partial listings and are not complete, compilable programs.
+- [`code/radar_project/radar_project.ino`](code/radar_project/radar_project.ino): radar-style OLED display and buzzer sketch (original code).
+- [`code/final_code_missile_Launcher_22/final_code_missile_Launcher_22.ino`](code/final_code_missile_Launcher_22/final_code_missile_Launcher_22.ino): turret and firing sketch, **adapted from the referenced Instructables project**.
+- [`code/Combined_Air_Defense_System/Combined_Air_Defense_System.ino`](code/Combined_Air_Defense_System/Combined_Air_Defense_System.ino): integrated sketch combining the two above.
+- [`code/README.md`](code/README.md) notes the pin differences between the sketches.
+- The code excerpts printed in the project write-up are kept, marked as excerpts, in [`docs/code-excerpts.md`](docs/code-excerpts.md).
 
 ## Status and Limitations
 
@@ -93,7 +97,7 @@ The `.ino` source files are not yet in this repository. See [`code/README.md`](c
 ```
 .
 ├── README.md
-├── code/        # Arduino sketches (see code/README.md)
+├── code/        # Arduino sketches (three sketches; see code/README.md)
 ├── docs/        # Project write-up PDF and code excerpts
 └── images/      # Photos used in this README
 ```
